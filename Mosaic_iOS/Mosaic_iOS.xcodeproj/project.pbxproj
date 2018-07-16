@@ -12,6 +12,17 @@
 		149F36F720F9A3B400A50F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149F36F520F9A3B400A50F91 /* Main.storyboard */; };
 		149F36F920F9A3B500A50F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149F36F820F9A3B500A50F91 /* Assets.xcassets */; };
 		149F36FC20F9A3B500A50F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149F36FA20F9A3B500A50F91 /* LaunchScreen.storyboard */; };
+		FC97B08E20FC8C450011717A /* String+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08220FC8C450011717A /* String+Size.swift */; };
+		FC97B08F20FC8C450011717A /* UIApplication+topViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08320FC8C450011717A /* UIApplication+topViewController.swift */; };
+		FC97B09020FC8C450011717A /* NSObject+reuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08420FC8C450011717A /* NSObject+reuseIdentifier.swift */; };
+		FC97B09120FC8C450011717A /* String+NilOrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08520FC8C450011717A /* String+NilOrEmpty.swift */; };
+		FC97B09220FC8C450011717A /* UIAlertController+Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08620FC8C450011717A /* UIAlertController+Show.swift */; };
+		FC97B09320FC8C450011717A /* TransparentNavBarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08820FC8C450011717A /* TransparentNavBarService.swift */; };
+		FC97B09420FC8C450011717A /* GradientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08920FC8C450011717A /* GradientService.swift */; };
+		FC97B09520FC8C450011717A /* TaCoSetUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08A20FC8C450011717A /* TaCoSetUpService.swift */; };
+		FC97B09620FC8C450011717A /* ShadowRoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08B20FC8C450011717A /* ShadowRoundService.swift */; };
+		FC97B09720FC8C450011717A /* EnumCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08C20FC8C450011717A /* EnumCollection.swift */; };
+		FC97B09820FC8C450011717A /* KeyboardControlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08D20FC8C450011717A /* KeyboardControlService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		149F36F820F9A3B500A50F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		149F36FB20F9A3B500A50F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		149F36FD20F9A3B500A50F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC97B08220FC8C450011717A /* String+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Size.swift"; sourceTree = "<group>"; };
+		FC97B08320FC8C450011717A /* UIApplication+topViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+topViewController.swift"; sourceTree = "<group>"; };
+		FC97B08420FC8C450011717A /* NSObject+reuseIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+reuseIdentifier.swift"; sourceTree = "<group>"; };
+		FC97B08520FC8C450011717A /* String+NilOrEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+NilOrEmpty.swift"; sourceTree = "<group>"; };
+		FC97B08620FC8C450011717A /* UIAlertController+Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Show.swift"; sourceTree = "<group>"; };
+		FC97B08820FC8C450011717A /* TransparentNavBarService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentNavBarService.swift; sourceTree = "<group>"; };
+		FC97B08920FC8C450011717A /* GradientService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientService.swift; sourceTree = "<group>"; };
+		FC97B08A20FC8C450011717A /* TaCoSetUpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaCoSetUpService.swift; sourceTree = "<group>"; };
+		FC97B08B20FC8C450011717A /* ShadowRoundService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowRoundService.swift; sourceTree = "<group>"; };
+		FC97B08C20FC8C450011717A /* EnumCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumCollection.swift; sourceTree = "<group>"; };
+		FC97B08D20FC8C450011717A /* KeyboardControlService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardControlService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +77,56 @@
 			isa = PBXGroup;
 			children = (
 				149F36F120F9A3B400A50F91 /* AppDelegate.swift */,
-				149F36F320F9A3B400A50F91 /* ViewController.swift */,
-				149F36F520F9A3B400A50F91 /* Main.storyboard */,
-				149F36F820F9A3B500A50F91 /* Assets.xcassets */,
-				149F36FA20F9A3B500A50F91 /* LaunchScreen.storyboard */,
 				149F36FD20F9A3B500A50F91 /* Info.plist */,
+				149F36F820F9A3B500A50F91 /* Assets.xcassets */,
+				FC97B08120FC8C450011717A /* Extension */,
+				FC97B08720FC8C450011717A /* Protocol */,
+				FC97B07F20FC8BFD0011717A /* ViewController */,
+				FC97B08020FC8C180011717A /* Storyboard */,
 			);
 			path = Mosaic_iOS;
+			sourceTree = "<group>";
+		};
+		FC97B07F20FC8BFD0011717A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				149F36F320F9A3B400A50F91 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FC97B08020FC8C180011717A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				149F36F520F9A3B400A50F91 /* Main.storyboard */,
+				149F36FA20F9A3B500A50F91 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FC97B08120FC8C450011717A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FC97B08220FC8C450011717A /* String+Size.swift */,
+				FC97B08320FC8C450011717A /* UIApplication+topViewController.swift */,
+				FC97B08420FC8C450011717A /* NSObject+reuseIdentifier.swift */,
+				FC97B08520FC8C450011717A /* String+NilOrEmpty.swift */,
+				FC97B08620FC8C450011717A /* UIAlertController+Show.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FC97B08720FC8C450011717A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FC97B08820FC8C450011717A /* TransparentNavBarService.swift */,
+				FC97B08920FC8C450011717A /* GradientService.swift */,
+				FC97B08A20FC8C450011717A /* TaCoSetUpService.swift */,
+				FC97B08B20FC8C450011717A /* ShadowRoundService.swift */,
+				FC97B08C20FC8C450011717A /* EnumCollection.swift */,
+				FC97B08D20FC8C450011717A /* KeyboardControlService.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +200,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC97B09020FC8C450011717A /* NSObject+reuseIdentifier.swift in Sources */,
+				FC97B09120FC8C450011717A /* String+NilOrEmpty.swift in Sources */,
+				FC97B09520FC8C450011717A /* TaCoSetUpService.swift in Sources */,
 				149F36F420F9A3B400A50F91 /* ViewController.swift in Sources */,
+				FC97B08E20FC8C450011717A /* String+Size.swift in Sources */,
+				FC97B09420FC8C450011717A /* GradientService.swift in Sources */,
+				FC97B09620FC8C450011717A /* ShadowRoundService.swift in Sources */,
 				149F36F220F9A3B400A50F91 /* AppDelegate.swift in Sources */,
+				FC97B09720FC8C450011717A /* EnumCollection.swift in Sources */,
+				FC97B08F20FC8C450011717A /* UIApplication+topViewController.swift in Sources */,
+				FC97B09320FC8C450011717A /* TransparentNavBarService.swift in Sources */,
+				FC97B09820FC8C450011717A /* KeyboardControlService.swift in Sources */,
+				FC97B09220FC8C450011717A /* UIAlertController+Show.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
