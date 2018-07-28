@@ -129,8 +129,8 @@
 		FC97B08020FC8C180011717A /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				149F36F520F9A3B400A50F91 /* Main.storyboard */,
 				149F36FA20F9A3B500A50F91 /* LaunchScreen.storyboard */,
+				149F36F520F9A3B400A50F91 /* Main.storyboard */,
 				14D7C72B210C634A00D1D27A /* Home.storyboard */,
 			);
 			path = Storyboard;
