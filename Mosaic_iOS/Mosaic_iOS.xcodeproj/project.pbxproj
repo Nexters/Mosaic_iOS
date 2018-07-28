@@ -12,6 +12,7 @@
 		149F36F720F9A3B400A50F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149F36F520F9A3B400A50F91 /* Main.storyboard */; };
 		149F36F920F9A3B500A50F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149F36F820F9A3B500A50F91 /* Assets.xcassets */; };
 		149F36FC20F9A3B500A50F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149F36FA20F9A3B500A50F91 /* LaunchScreen.storyboard */; };
+		A7E9ED683513B976997A056E /* Pods_Mosaic_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF43132EF44163E754904A8C /* Pods_Mosaic_iOS.framework */; };
 		FC97B08E20FC8C450011717A /* String+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08220FC8C450011717A /* String+Size.swift */; };
 		FC97B08F20FC8C450011717A /* UIApplication+topViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08320FC8C450011717A /* UIApplication+topViewController.swift */; };
 		FC97B09020FC8C450011717A /* NSObject+reuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08420FC8C450011717A /* NSObject+reuseIdentifier.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BDE3E59604BC043720AD6A2 /* Pods-Mosaic_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mosaic_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mosaic_iOS/Pods-Mosaic_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		149F36EE20F9A3B400A50F91 /* Mosaic_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mosaic_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		149F36F120F9A3B400A50F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		149F36F320F9A3B400A50F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +35,8 @@
 		149F36F820F9A3B500A50F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		149F36FB20F9A3B500A50F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		149F36FD20F9A3B500A50F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD62099ADB2724A4F9EE03C /* Pods-Mosaic_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mosaic_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mosaic_iOS/Pods-Mosaic_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		EF43132EF44163E754904A8C /* Pods_Mosaic_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mosaic_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC97B08220FC8C450011717A /* String+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Size.swift"; sourceTree = "<group>"; };
 		FC97B08320FC8C450011717A /* UIApplication+topViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+topViewController.swift"; sourceTree = "<group>"; };
 		FC97B08420FC8C450011717A /* NSObject+reuseIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+reuseIdentifier.swift"; sourceTree = "<group>"; };
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E9ED683513B976997A056E /* Pods_Mosaic_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,8 @@
 			children = (
 				149F36F020F9A3B400A50F91 /* Mosaic_iOS */,
 				149F36EF20F9A3B400A50F91 /* Products */,
+				2A1DD733E93678748ECE1BB3 /* Pods */,
+				7B795FBBD61B114FA1164C1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +92,23 @@
 				FC97B08020FC8C180011717A /* Storyboard */,
 			);
 			path = Mosaic_iOS;
+			sourceTree = "<group>";
+		};
+		2A1DD733E93678748ECE1BB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BDE3E59604BC043720AD6A2 /* Pods-Mosaic_iOS.debug.xcconfig */,
+				8DD62099ADB2724A4F9EE03C /* Pods-Mosaic_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B795FBBD61B114FA1164C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF43132EF44163E754904A8C /* Pods_Mosaic_iOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FC97B07F20FC8BFD0011717A /* ViewController */ = {
@@ -136,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 149F370020F9A3B500A50F91 /* Build configuration list for PBXNativeTarget "Mosaic_iOS" */;
 			buildPhases = (
+				9D50018396F3FC3ADDDBDC41 /* [CP] Check Pods Manifest.lock */,
 				149F36EA20F9A3B400A50F91 /* Sources */,
 				149F36EB20F9A3B400A50F91 /* Frameworks */,
 				149F36EC20F9A3B400A50F91 /* Resources */,
+				5A314E613903B2493BFF7655 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +220,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A314E613903B2493BFF7655 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mosaic_iOS/Pods-Mosaic_iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mosaic_iOS/Pods-Mosaic_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D50018396F3FC3ADDDBDC41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mosaic_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		149F36EA20F9A3B400A50F91 /* Sources */ = {
@@ -354,15 +423,13 @@
 		};
 		149F370120F9A3B500A50F91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BDE3E59604BC043720AD6A2 /* Pods-Mosaic_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9BD2FZATPN;
 				INFOPLIST_FILE = Mosaic_iOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zedd.Mosaic-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -372,15 +439,13 @@
 		};
 		149F370220F9A3B500A50F91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD62099ADB2724A4F9EE03C /* Pods-Mosaic_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9BD2FZATPN;
 				INFOPLIST_FILE = Mosaic_iOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zedd.Mosaic-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
