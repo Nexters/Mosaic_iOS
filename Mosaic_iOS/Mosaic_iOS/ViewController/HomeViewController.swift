@@ -6,7 +6,20 @@
 //  Copyright © 2018년 Zedd. All rights reserved.
 //
 
+
 import UIKit
+
+class MainTabBarController: UITabBarController {
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        var newTabBarFrame = self.tabBar.frame
+        let newTabBarHeight: CGFloat = 60
+        newTabBarFrame.size.height = newTabBarHeight
+        newTabBarFrame.origin.y = self.view.frame.size.height - newTabBarHeight
+        self.tabBar.frame = newTabBarFrame
+    }
+}
 
 class HomeViewController: UIViewController {
 
@@ -16,8 +29,20 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
         // Do any additional setup after loading the view.
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+
+    }
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        self.tabBarController?.tabBar.frame.size.height = 100
+
+    
     }
 
 }
