@@ -23,26 +23,16 @@ class MainTabBarController: UITabBarController {
 
 class HomeViewController: UIViewController {
 
-    static func create() -> HomeViewController?{
+    static func create() -> HomeViewController? {
         return UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: classNameToString) as? HomeViewController
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        // Do any additional setup after loading the view.
     }
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        
-
-    }
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
-        self.tabBarController?.tabBar.frame.size.height = 100
-
-    
     }
 
 }
