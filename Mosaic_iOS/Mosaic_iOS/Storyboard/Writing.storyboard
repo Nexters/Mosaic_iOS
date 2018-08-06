@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Igb-DL-3J4">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Writing View Controller-->
+        <scene sceneID="Bba-QS-9Ph">
+            <objects>
+                <viewController storyboardIdentifier="WritingViewController" id="Igb-DL-3J4" customClass="WritingViewController" customModule="Mosaic_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cgE-jd-Hv8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="제목" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KAI-eS-7hb">
+                                <rect key="frame" x="0.0" y="44" width="375" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="RNP-QU-0ib">
+                                <rect key="frame" x="0.0" y="692" width="375" height="60"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="w96-bF-KYf"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="msR-ae-048">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Daj-wz-Yh1">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="내용" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eh3-io-RL5">
+                                <rect key="frame" x="0.0" y="74" width="375" height="618"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8mL-Um-api" customClass="AccessoryView" customModule="Mosaic_iOS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="752" width="375" height="60"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="TRe-uZ-Wse"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8T6-GR-gAC" firstAttribute="trailing" secondItem="8mL-Um-api" secondAttribute="trailing" id="1tj-oc-X1s"/>
+                            <constraint firstAttribute="bottom" secondItem="8mL-Um-api" secondAttribute="bottom" id="4AT-Mi-q1n"/>
+                            <constraint firstItem="eh3-io-RL5" firstAttribute="top" secondItem="KAI-eS-7hb" secondAttribute="bottom" id="8sf-al-uhs"/>
+                            <constraint firstItem="8T6-GR-gAC" firstAttribute="trailing" secondItem="RNP-QU-0ib" secondAttribute="trailing" id="Aby-VL-umU"/>
+                            <constraint firstItem="KAI-eS-7hb" firstAttribute="leading" secondItem="8T6-GR-gAC" secondAttribute="leading" id="CfL-1H-IwX"/>
+                            <constraint firstItem="8mL-Um-api" firstAttribute="leading" secondItem="8T6-GR-gAC" secondAttribute="leading" id="FaE-in-DUa"/>
+                            <constraint firstItem="8mL-Um-api" firstAttribute="top" secondItem="RNP-QU-0ib" secondAttribute="bottom" id="Ufo-zt-ghJ"/>
+                            <constraint firstItem="RNP-QU-0ib" firstAttribute="leading" secondItem="8T6-GR-gAC" secondAttribute="leading" id="YQJ-3k-Vuf"/>
+                            <constraint firstItem="eh3-io-RL5" firstAttribute="leading" secondItem="8T6-GR-gAC" secondAttribute="leading" id="ihc-lM-9or"/>
+                            <constraint firstItem="8T6-GR-gAC" firstAttribute="trailing" secondItem="KAI-eS-7hb" secondAttribute="trailing" id="pSL-eR-oWo"/>
+                            <constraint firstItem="RNP-QU-0ib" firstAttribute="top" secondItem="eh3-io-RL5" secondAttribute="bottom" id="rGR-nT-32c"/>
+                            <constraint firstItem="8T6-GR-gAC" firstAttribute="trailing" secondItem="eh3-io-RL5" secondAttribute="trailing" id="u39-v8-8mF"/>
+                            <constraint firstItem="KAI-eS-7hb" firstAttribute="top" secondItem="8T6-GR-gAC" secondAttribute="top" id="yNO-SU-Bth"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8T6-GR-gAC"/>
+                    </view>
+                    <connections>
+                        <outlet property="accessoryView" destination="8mL-Um-api" id="0hE-Ao-rLn"/>
+                        <outlet property="accessoryViewBottomConstraint" destination="4AT-Mi-q1n" id="zyt-rj-Dm5"/>
+                        <outlet property="accessoryViewHeightConstaint" destination="TRe-uZ-Wse" id="ukv-aa-a04"/>
+                        <outlet property="contentTextView" destination="eh3-io-RL5" id="xNK-j2-AZl"/>
+                        <outlet property="imageCollectionView" destination="RNP-QU-0ib" id="pBg-XZ-L9J"/>
+                        <outlet property="imageCollectionViewHeightConstraint" destination="w96-bF-KYf" id="OKp-sG-ogM"/>
+                        <outlet property="titleTextField" destination="KAI-eS-7hb" id="De7-KL-cbr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x8F-Nk-L5X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146.40000000000001" y="-31.03448275862069"/>
+        </scene>
+    </scenes>
+</document>

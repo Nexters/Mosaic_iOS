@@ -23,3 +23,13 @@ class ViewController: UIViewController {
 
 }
 
+//https://stackoverflow.com/questions/13006464/how-to-fix-the-issue-command-bin-sh-failed-with-exit-code-1-in-iphone
+var bottomInset: CGFloat {
+    //use in viewDidLoad or viewDidLayoutSubviews
+    if #available(iOS 11.0, *) {
+        if let inset = UIApplication.shared.keyWindow?.safeAreaInsets.bottom {
+            return inset
+        }
+    }
+    return 0
+}

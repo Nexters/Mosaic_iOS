@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccessoryView" customModule="Mosaic_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="XWV-9t-bXt" id="P6h-xu-s1J"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="4C2-2q-I0M"/>
+                <outlet property="imageButton" destination="htW-8T-qLU" id="sOm-G1-rNf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="81"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XWV-9t-bXt">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="81"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htW-8T-qLU">
+                            <rect key="frame" x="277" y="25.5" width="46" height="30"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="htW-8T-qLU" firstAttribute="centerY" secondItem="XWV-9t-bXt" secondAttribute="centerY" id="RiH-TQ-s6K"/>
+                        <constraint firstItem="htW-8T-qLU" firstAttribute="centerX" secondItem="XWV-9t-bXt" secondAttribute="centerX" id="cHN-oQ-Qfi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="XWV-9t-bXt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UBx-UG-E0w"/>
+                <constraint firstItem="dao-Y6-jOb" firstAttribute="bottom" secondItem="XWV-9t-bXt" secondAttribute="bottom" id="XFV-Qx-jQb"/>
+                <constraint firstAttribute="trailing" secondItem="XWV-9t-bXt" secondAttribute="trailing" id="ilB-xp-BW1"/>
+                <constraint firstItem="XWV-9t-bXt" firstAttribute="top" secondItem="dao-Y6-jOb" secondAttribute="top" id="sgq-ZD-Kvj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="dao-Y6-jOb"/>
+            <point key="canvasLocation" x="-9" y="29.5"/>
+        </view>
+    </objects>
+</document>
