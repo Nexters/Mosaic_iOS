@@ -18,15 +18,22 @@
 		A7E9ED683513B976997A056E /* Pods_Mosaic_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF43132EF44163E754904A8C /* Pods_Mosaic_iOS.framework */; };
 		FC97B08E20FC8C450011717A /* String+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08220FC8C450011717A /* String+Size.swift */; };
 		FC97B08F20FC8C450011717A /* UIApplication+topViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08320FC8C450011717A /* UIApplication+topViewController.swift */; };
-		FC97B09020FC8C450011717A /* NSObject+reuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08420FC8C450011717A /* NSObject+reuseIdentifier.swift */; };
+		FC97B09020FC8C450011717A /* NSObject+id.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08420FC8C450011717A /* NSObject+id.swift */; };
 		FC97B09120FC8C450011717A /* String+NilOrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08520FC8C450011717A /* String+NilOrEmpty.swift */; };
 		FC97B09220FC8C450011717A /* UIAlertController+Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08620FC8C450011717A /* UIAlertController+Show.swift */; };
 		FC97B09320FC8C450011717A /* TransparentNavBarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08820FC8C450011717A /* TransparentNavBarService.swift */; };
 		FC97B09420FC8C450011717A /* GradientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08920FC8C450011717A /* GradientService.swift */; };
-		FC97B09520FC8C450011717A /* TaCoSetUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08A20FC8C450011717A /* TaCoSetUpService.swift */; };
 		FC97B09620FC8C450011717A /* ShadowRoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08B20FC8C450011717A /* ShadowRoundService.swift */; };
 		FC97B09720FC8C450011717A /* EnumCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08C20FC8C450011717A /* EnumCollection.swift */; };
 		FC97B09820FC8C450011717A /* KeyboardControlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97B08D20FC8C450011717A /* KeyboardControlService.swift */; };
+		FCA76B092115F81F007AEC42 /* TableCollectionView + SetUp, Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA76B082115F81F007AEC42 /* TableCollectionView + SetUp, Reusable.swift */; };
+		FCA76B0B2115F86D007AEC42 /* ImagePickerControllerPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA76B0A2115F86D007AEC42 /* ImagePickerControllerPresentable.swift */; };
+		FCA76B0D2115F87D007AEC42 /* WritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA76B0C2115F87D007AEC42 /* WritingViewController.swift */; };
+		FCA76B132115F89A007AEC42 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA76B0F2115F89A007AEC42 /* ImageCollectionViewCell.xib */; };
+		FCA76B142115F89A007AEC42 /* AccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA76B102115F89A007AEC42 /* AccessoryView.xib */; };
+		FCA76B152115F89A007AEC42 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA76B112115F89A007AEC42 /* ImageCollectionViewCell.swift */; };
+		FCA76B162115F89A007AEC42 /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA76B122115F89A007AEC42 /* AccessoryView.swift */; };
+		FCA76B182115F8BC007AEC42 /* Writing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA76B172115F8BC007AEC42 /* Writing.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,15 +52,22 @@
 		EF43132EF44163E754904A8C /* Pods_Mosaic_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mosaic_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC97B08220FC8C450011717A /* String+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Size.swift"; sourceTree = "<group>"; };
 		FC97B08320FC8C450011717A /* UIApplication+topViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+topViewController.swift"; sourceTree = "<group>"; };
-		FC97B08420FC8C450011717A /* NSObject+reuseIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+reuseIdentifier.swift"; sourceTree = "<group>"; };
+		FC97B08420FC8C450011717A /* NSObject+id.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+id.swift"; sourceTree = "<group>"; };
 		FC97B08520FC8C450011717A /* String+NilOrEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+NilOrEmpty.swift"; sourceTree = "<group>"; };
 		FC97B08620FC8C450011717A /* UIAlertController+Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Show.swift"; sourceTree = "<group>"; };
 		FC97B08820FC8C450011717A /* TransparentNavBarService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentNavBarService.swift; sourceTree = "<group>"; };
 		FC97B08920FC8C450011717A /* GradientService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientService.swift; sourceTree = "<group>"; };
-		FC97B08A20FC8C450011717A /* TaCoSetUpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaCoSetUpService.swift; sourceTree = "<group>"; };
 		FC97B08B20FC8C450011717A /* ShadowRoundService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowRoundService.swift; sourceTree = "<group>"; };
 		FC97B08C20FC8C450011717A /* EnumCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumCollection.swift; sourceTree = "<group>"; };
 		FC97B08D20FC8C450011717A /* KeyboardControlService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardControlService.swift; sourceTree = "<group>"; };
+		FCA76B082115F81F007AEC42 /* TableCollectionView + SetUp, Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableCollectionView + SetUp, Reusable.swift"; sourceTree = "<group>"; };
+		FCA76B0A2115F86D007AEC42 /* ImagePickerControllerPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerControllerPresentable.swift; sourceTree = "<group>"; };
+		FCA76B0C2115F87D007AEC42 /* WritingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WritingViewController.swift; sourceTree = "<group>"; };
+		FCA76B0F2115F89A007AEC42 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		FCA76B102115F89A007AEC42 /* AccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessoryView.xib; sourceTree = "<group>"; };
+		FCA76B112115F89A007AEC42 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCA76B122115F89A007AEC42 /* AccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
+		FCA76B172115F8BC007AEC42 /* Writing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Writing.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,7 @@
 				149F36F120F9A3B400A50F91 /* AppDelegate.swift */,
 				149F36FD20F9A3B500A50F91 /* Info.plist */,
 				149F36F820F9A3B500A50F91 /* Assets.xcassets */,
+				FCA76B0E2115F89A007AEC42 /* View */,
 				FC97B08120FC8C450011717A /* Extension */,
 				FC97B08720FC8C450011717A /* Protocol */,
 				FC97B07F20FC8BFD0011717A /* ViewController */,
@@ -121,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				149F36F320F9A3B400A50F91 /* ViewController.swift */,
+				FCA76B0C2115F87D007AEC42 /* WritingViewController.swift */,
 				14D7C72D210C63A300D1D27A /* HomeViewController.swift */,
 			);
 			path = ViewController;
@@ -130,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				149F36FA20F9A3B500A50F91 /* LaunchScreen.storyboard */,
+				FCA76B172115F8BC007AEC42 /* Writing.storyboard */,
 				149F36F520F9A3B400A50F91 /* Main.storyboard */,
 				14D7C72B210C634A00D1D27A /* Home.storyboard */,
 			);
@@ -141,7 +158,8 @@
 			children = (
 				FC97B08220FC8C450011717A /* String+Size.swift */,
 				FC97B08320FC8C450011717A /* UIApplication+topViewController.swift */,
-				FC97B08420FC8C450011717A /* NSObject+reuseIdentifier.swift */,
+				FC97B08420FC8C450011717A /* NSObject+id.swift */,
+				FCA76B082115F81F007AEC42 /* TableCollectionView + SetUp, Reusable.swift */,
 				FC97B08520FC8C450011717A /* String+NilOrEmpty.swift */,
 				FC97B08620FC8C450011717A /* UIAlertController+Show.swift */,
 				14D7C72F210C63F100D1D27A /* NSObject+.swift */,
@@ -154,12 +172,23 @@
 			children = (
 				FC97B08820FC8C450011717A /* TransparentNavBarService.swift */,
 				FC97B08920FC8C450011717A /* GradientService.swift */,
-				FC97B08A20FC8C450011717A /* TaCoSetUpService.swift */,
+				FCA76B0A2115F86D007AEC42 /* ImagePickerControllerPresentable.swift */,
 				FC97B08B20FC8C450011717A /* ShadowRoundService.swift */,
 				FC97B08C20FC8C450011717A /* EnumCollection.swift */,
 				FC97B08D20FC8C450011717A /* KeyboardControlService.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FCA76B0E2115F89A007AEC42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCA76B0F2115F89A007AEC42 /* ImageCollectionViewCell.xib */,
+				FCA76B102115F89A007AEC42 /* AccessoryView.xib */,
+				FCA76B112115F89A007AEC42 /* ImageCollectionViewCell.swift */,
+				FCA76B122115F89A007AEC42 /* AccessoryView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,7 +202,7 @@
 				149F36EA20F9A3B400A50F91 /* Sources */,
 				149F36EB20F9A3B400A50F91 /* Frameworks */,
 				149F36EC20F9A3B400A50F91 /* Resources */,
-				5A314E613903B2493BFF7655 /* [CP] Embed Pods Frameworks */,
+				5FB057431E0C61E2A04922F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,16 +252,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				149F36FC20F9A3B500A50F91 /* LaunchScreen.storyboard in Resources */,
+				FCA76B182115F8BC007AEC42 /* Writing.storyboard in Resources */,
 				149F36F920F9A3B500A50F91 /* Assets.xcassets in Resources */,
 				149F36F720F9A3B400A50F91 /* Main.storyboard in Resources */,
+				FCA76B142115F89A007AEC42 /* AccessoryView.xib in Resources */,
 				14D7C72C210C634A00D1D27A /* Home.storyboard in Resources */,
+				FCA76B132115F89A007AEC42 /* ImageCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5A314E613903B2493BFF7655 /* [CP] Embed Pods Frameworks */ = {
+		5FB057431E0C61E2A04922F2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,20 +311,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC97B09020FC8C450011717A /* NSObject+reuseIdentifier.swift in Sources */,
+				FC97B09020FC8C450011717A /* NSObject+id.swift in Sources */,
 				FC97B09120FC8C450011717A /* String+NilOrEmpty.swift in Sources */,
-				FC97B09520FC8C450011717A /* TaCoSetUpService.swift in Sources */,
 				149F36F420F9A3B400A50F91 /* ViewController.swift in Sources */,
 				FC97B08E20FC8C450011717A /* String+Size.swift in Sources */,
 				14D7C72E210C63A300D1D27A /* HomeViewController.swift in Sources */,
 				FC97B09420FC8C450011717A /* GradientService.swift in Sources */,
+				FCA76B162115F89A007AEC42 /* AccessoryView.swift in Sources */,
+				FCA76B152115F89A007AEC42 /* ImageCollectionViewCell.swift in Sources */,
 				FC97B09620FC8C450011717A /* ShadowRoundService.swift in Sources */,
 				149F36F220F9A3B400A50F91 /* AppDelegate.swift in Sources */,
+				FCA76B092115F81F007AEC42 /* TableCollectionView + SetUp, Reusable.swift in Sources */,
 				FC97B09720FC8C450011717A /* EnumCollection.swift in Sources */,
 				14D7C730210C63F100D1D27A /* NSObject+.swift in Sources */,
+				FCA76B0B2115F86D007AEC42 /* ImagePickerControllerPresentable.swift in Sources */,
 				FC97B08F20FC8C450011717A /* UIApplication+topViewController.swift in Sources */,
 				FC97B09320FC8C450011717A /* TransparentNavBarService.swift in Sources */,
 				FC97B09820FC8C450011717A /* KeyboardControlService.swift in Sources */,
+				FCA76B0D2115F87D007AEC42 /* WritingViewController.swift in Sources */,
 				FC97B09220FC8C450011717A /* UIAlertController+Show.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,7 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9BD2FZATPN;
+				DEVELOPMENT_TEAM = EPWV8KDDJE;
 				INFOPLIST_FILE = Mosaic_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,7 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9BD2FZATPN;
+				DEVELOPMENT_TEAM = EPWV8KDDJE;
 				INFOPLIST_FILE = Mosaic_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
