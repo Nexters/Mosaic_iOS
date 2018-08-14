@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14378982211EB0AB002F39A9 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14378981211EB0AB002F39A9 /* UIColor+.swift */; };
+		14378988211EB30C002F39A9 /* NanumSquareBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14378984211EB2D4002F39A9 /* NanumSquareBold.ttf */; };
+		14378989211EB30E002F39A9 /* NanumSquareExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14378985211EB2D4002F39A9 /* NanumSquareExtraBold.ttf */; };
+		1437898A211EB311002F39A9 /* NanumSquareLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14378987211EB2D5002F39A9 /* NanumSquareLight.ttf */; };
+		1437898B211EB311002F39A9 /* NanumSquareRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14378986211EB2D4002F39A9 /* NanumSquareRegular.ttf */; };
+		1438F60C211AED9300B00CF0 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1438F60A211AED9300B00CF0 /* HomeCollectionViewCell.swift */; };
+		1438F60D211AED9300B00CF0 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1438F60B211AED9300B00CF0 /* HomeCollectionViewCell.xib */; };
 		149F36F220F9A3B400A50F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149F36F120F9A3B400A50F91 /* AppDelegate.swift */; };
 		149F36F420F9A3B400A50F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149F36F320F9A3B400A50F91 /* ViewController.swift */; };
 		149F36F720F9A3B400A50F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149F36F520F9A3B400A50F91 /* Main.storyboard */; };
@@ -31,6 +38,13 @@
 
 /* Begin PBXFileReference section */
 		0BDE3E59604BC043720AD6A2 /* Pods-Mosaic_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mosaic_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mosaic_iOS/Pods-Mosaic_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		14378981211EB0AB002F39A9 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		14378984211EB2D4002F39A9 /* NanumSquareBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareBold.ttf; sourceTree = "<group>"; };
+		14378985211EB2D4002F39A9 /* NanumSquareExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareExtraBold.ttf; sourceTree = "<group>"; };
+		14378986211EB2D4002F39A9 /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRegular.ttf; sourceTree = "<group>"; };
+		14378987211EB2D5002F39A9 /* NanumSquareLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareLight.ttf; sourceTree = "<group>"; };
+		1438F60A211AED9300B00CF0 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		1438F60B211AED9300B00CF0 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		149F36EE20F9A3B400A50F91 /* Mosaic_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mosaic_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		149F36F120F9A3B400A50F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		149F36F320F9A3B400A50F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,9 +82,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14378983211EB2C8002F39A9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				14378984211EB2D4002F39A9 /* NanumSquareBold.ttf */,
+				14378985211EB2D4002F39A9 /* NanumSquareExtraBold.ttf */,
+				14378987211EB2D5002F39A9 /* NanumSquareLight.ttf */,
+				14378986211EB2D4002F39A9 /* NanumSquareRegular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		149F36E520F9A3B400A50F91 = {
 			isa = PBXGroup;
 			children = (
+				14378983211EB2C8002F39A9 /* Font */,
 				149F36F020F9A3B400A50F91 /* Mosaic_iOS */,
 				149F36EF20F9A3B400A50F91 /* Products */,
 				2A1DD733E93678748ECE1BB3 /* Pods */,
@@ -145,6 +171,7 @@
 				FC97B08520FC8C450011717A /* String+NilOrEmpty.swift */,
 				FC97B08620FC8C450011717A /* UIAlertController+Show.swift */,
 				14D7C72F210C63F100D1D27A /* NSObject+.swift */,
+				14378981211EB0AB002F39A9 /* UIColor+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -160,6 +187,20 @@
 				FC97B08D20FC8C450011717A /* KeyboardControlService.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+
+		FCA76B0E2115F89A007AEC42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCA76B0F2115F89A007AEC42 /* ImageCollectionViewCell.xib */,
+				FCA76B102115F89A007AEC42 /* AccessoryView.xib */,
+				FCA76B112115F89A007AEC42 /* ImageCollectionViewCell.swift */,
+				FCA76B122115F89A007AEC42 /* AccessoryView.swift */,
+				1438F60B211AED9300B00CF0 /* HomeCollectionViewCell.xib */,
+				1438F60A211AED9300B00CF0 /* HomeCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,8 +264,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				149F36FC20F9A3B500A50F91 /* LaunchScreen.storyboard in Resources */,
+
+				14378988211EB30C002F39A9 /* NanumSquareBold.ttf in Resources */,
+				1437898A211EB311002F39A9 /* NanumSquareLight.ttf in Resources */,
+				FCA76B182115F8BC007AEC42 /* Writing.storyboard in Resources */,
+
 				149F36F920F9A3B500A50F91 /* Assets.xcassets in Resources */,
+				1438F60D211AED9300B00CF0 /* HomeCollectionViewCell.xib in Resources */,
+				14378989211EB30E002F39A9 /* NanumSquareExtraBold.ttf in Resources */,
 				149F36F720F9A3B400A50F91 /* Main.storyboard in Resources */,
+
+				1437898B211EB311002F39A9 /* NanumSquareRegular.ttf in Resources */,
+				FCA76B142115F89A007AEC42 /* AccessoryView.xib in Resources */,
 				14D7C72C210C634A00D1D27A /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,9 +342,11 @@
 				FC97B09720FC8C450011717A /* EnumCollection.swift in Sources */,
 				14D7C730210C63F100D1D27A /* NSObject+.swift in Sources */,
 				FC97B08F20FC8C450011717A /* UIApplication+topViewController.swift in Sources */,
+				1438F60C211AED9300B00CF0 /* HomeCollectionViewCell.swift in Sources */,
 				FC97B09320FC8C450011717A /* TransparentNavBarService.swift in Sources */,
 				FC97B09820FC8C450011717A /* KeyboardControlService.swift in Sources */,
 				FC97B09220FC8C450011717A /* UIAlertController+Show.swift in Sources */,
+				14378982211EB0AB002F39A9 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
